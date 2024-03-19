@@ -25,12 +25,12 @@ const Login = () => {
             <Form>
               <FormRow type="email" name="email" />
               <FormRow type="password" name="password" />
-              <button
+              <Link to="/dashboard"
                 type="submit"
                 className="btn btn-secondary btn-outline-dark mt-3 mb-3"
               >
                 {isSubmitting ? "Submitting..." : "Submit"}
-              </button>
+              </Link>
               <p className="lead mt-3">
                 Not a user yet?{" "}
                 <span>
