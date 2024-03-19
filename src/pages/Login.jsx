@@ -5,11 +5,11 @@ const Login = () => {
   const isSubmitting = useNavigation().state === "submitting";
   return (
     <div
-      className="container border border-black border-3 px-0 py-5 overflow-hidden"
+      className="container px-0 py-5 overflow-hidden"
       style={{ height:"100vh" }}
     >
       <div
-        className="row justify-content-center border border-danger h-100"
+        className="row justify-content-center h-100"
         style={{ marginLeft:"0px" }}
       >
         <div
@@ -21,7 +21,7 @@ const Login = () => {
           }}
         >
           <div>
-            <h2 className="mb-5 text-decoration-underline">Login</h2>
+            <h1 className="mb-5 text-decoration-underline display-4">Login</h1>
             <Form>
               <FormRow type="email" name="email" />
               <FormRow type="password" name="password" />

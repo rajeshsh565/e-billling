@@ -15,7 +15,7 @@ const Register = () => {
           }}
         >
           <div>
-            <h2 className="mb-5 text-decoration-underline">Register</h2>
+            <h1 className="mb-5 text-decoration-underline display-4">Register</h1>
             <Form>
               <FormRow type="text" name="name" />
               <FormRow type="tel" name="phone" />
