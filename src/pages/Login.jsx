@@ -5,12 +5,12 @@ const Login = () => {
   const isSubmitting = useNavigation().state === "submitting";
   return (
     <div
-      className="container position-relative"
-      style={{ minHeight: "100vh" }}
+      className="container border border-black border-3 px-0 py-5 overflow-hidden"
+      style={{ height:"100vh" }}
     >
       <div
-        className="row justify-content-center position-absolute translate-middle mx-0"
-        style={{ top: "50%", left: "50%" }}
+        className="row justify-content-center border border-danger h-100"
+        style={{ marginLeft:"0px" }}
       >
         <div
           className="row shadow rounded-3 align-items-center text-center"
