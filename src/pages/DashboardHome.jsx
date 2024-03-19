@@ -38,7 +38,7 @@ const DashboardHome = () => {
             <ul>
               {pointers.map((pointer, index) => {
                 return (
-                  <li className="fs-5 list-inline fw-semibold">
+                  <li className="fs-5 list-inline fw-semibold mb-2">
                     {pointer.icon}
                     {pointer.title} :
                     <ul>

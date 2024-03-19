@@ -6,18 +6,18 @@ const Profile = () => {
   const isSubmitting = useNavigation().state === "submitting";
   return (
     <div className="container">
-      <div className="row my-5 justify-content-evenly">
-        <div className="col-lg-4 mt-lg-5 pt-lg-5 py-3">
+      <div className="row my-lg-5 justify-content-evenly">
+        <div className="col-lg-4 mt-lg-5 pt-lg-5 py-3 d-flex">
           <div
-            className="rounded-circle bg-black overflow-hidden text-center mx-auto mt-lg-5"
-            style={{ width: "15rem", height: "15rem", lineHeight: "15rem" }}
+            className="rounded-circle bg-secondary overflow-hidden text-center mx-auto mt-lg-5"
+            style={{ width: "15rem", height: "15rem", lineHeight: "15rem", zIndex:"999" }}
           >
             <FaUser style={{ fontSize: "12rem", marginBottom: "2rem" }} />
           </div>
         </div>
         <div
-          className="col-lg-8 text-center bg-dark-subtle text-black rounded-3 shadow ms-lg-5"
-          style={{ maxWidth: "25rem" }}
+          className="col-lg-8 text-center bg-dark-subtle text-black  shadow ms-lg-5"
+          style={{ maxWidth: "25rem", marginTop:"-7.5rem", paddingTop:"7.5rem"}}
         >
           <div className="px-5 py-3">
             <h2 className="mb-5 text-decoration-underline">Update User Info</h2>
